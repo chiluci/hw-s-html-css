@@ -5,6 +5,7 @@ body {
     background-position:center;
     height: 100vh;
     text-align: center;
+    color: #469bb2;
 }
 
 .main-menu-container {
@@ -40,3 +41,48 @@ a {
     text-decoration: underline;
   }
   
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  table {
+    text-align: center;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border-color: #cca9e2;
+  }
+
+  td {
+    border: 1px solid #12ff7c;
+    width: 33.33%;
+    height: 50px;
+  }
+  
+  .h-200 {
+    height: 200px;
+  }
+  
+  .w-75 {
+    width: 75%;
+  }
+  .w-90 {
+    width: 90%;
+  }
+  
+  .w-60 {
+    width: 60%;
+  }
+  
+  .w-40 {
+    width: 40%;
+  }
+  
+  .w-28 {
+    width: 28%;
+  }
+  .w-80 {
+    width: 80%;
+  }
+    

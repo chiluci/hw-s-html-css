@@ -7,6 +7,38 @@
     <title>Table 2</title>
 </head>
 <body>
-    
+    <div class="container">
+        <table class="w-90">
+          <caption>Table #2</caption>
+          <tr>
+            <td class="w-40" colspan="2">1-2</td>
+            <td class="w-60">3 <span>w=60%</span></td>
+          </tr>
+          <tr>
+            <td class="w-28">4  w=28%</td>
+            <td colspan="2" rowspan="2">
+              <table class="w-80">
+                <caption>Вкладена таблиця</caption>
+                <tr>
+                  <td>1</td>
+                  <td rowspan="3">2-5-8 w=33%</td>
+                  <td class="h-200" rowspan="2">3-6 h=200px</td>
+                </tr>
+                <tr>
+                  <td class="h-200" rowspan="2">4-7 h=200px</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                </tr>
+              </table>
+              <span>w вкладеної таблиці = 80%</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="w-28">7</td>
+          </tr>
+        </table>
+        <span>w батьківської таблиці = 90%</span>
+      </div>
 </body>
 </html>
