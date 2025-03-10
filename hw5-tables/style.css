@@ -1,0 +1,42 @@
+body {
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100vh;
+    text-align: center;
+}
+
+.main-menu-container {
+    width: 1000px;
+    height: 500px;
+    margin-top: 190px;
+    display: inline-block;
+    background-color: rgba(80, 201, 219, 0.393);
+    vertical-align: middle
+}
+
+.main-menu {
+    margin-top: 25%;
+}
+
+.main-menu li {
+    display: inline;
+    margin-right: 100px;
+    vertical-align: middle
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #cca9e2;
+    font-size: 18px;
+    transition: transform 0.3s ease, color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  a:hover {
+    color: #dc7dce;
+    transform: scale(1.2);
+    text-decoration: underline;
+  }
+  
