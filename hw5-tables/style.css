@@ -55,11 +55,13 @@ a {
   }
 
   td {
-    border: 1px solid #12ff7c;
-    width: 33.33%;
+    border: 1px solid #ff0000;
     height: 50px;
   }
-  
+  .w-33 {
+    width: 33.33%;   
+  }
+
   .h-200 {
     height: 200px;
   }
@@ -85,4 +87,16 @@ a {
   .w-80 {
     width: 80%;
   }
-    
+  table {
+    margin: 0 auto;
+    background: #ffffff;
+    border-collapse: collapse;
+  }
+  caption {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+  }
+ 
+  
+  
