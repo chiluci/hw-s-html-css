@@ -30,30 +30,45 @@
         .red { background-color: red; }
         .black { background-color: black; color: white; }
         .blue { background-color: blue; color: white; }
+
+        .h30 { height: 30px; }
+        .h40 { height: 40px; }
+        .h50 { height: 50px; }
+        .h60 { height: 60px; }
+        .h80 { height: 80px; }
+        .h90 { height: 90px; }
+        .h100 { height: 100px; }
+        .h120 { height: 120px; }
+
+        .w30 { width: 30px; }
+        .w75 { width: 75px; }
+        .w165 { width: 165px; }
+        .w200 { width: 200px; }
+
     </style>
 </head>
 <body>
 <table>
     <tr>
-        <td colspan="2" height="30"></td>
-        <td width="165"></td>
+        <td colspan="2" class="h30"></td>
+        <td class="w165"></td>
         <td colspan="2" class="yellow"></td>
         <td rowspan="4"></td>
     </tr>
     <tr>
-        <td width="30" height="60"></td>
-        <td rowspan="2" colspan="2" width="200" class="red"></td>
-        <td colspan="2" height="100" class="yellow"></td>
+        <td class="w30 h60"></td>
+        <td rowspan="2" colspan="2" class="w200 red"></td>
+        <td colspan="2" class="h100 yellow"></td>
     </tr>
     <tr>
-        <td rowspan="3" height="80"></td>
-        <td height="120" width="75"></td>
-        <td height="120" width="75"></td>
+        <td rowspan="3" class="h80"></td>
+        <td class="h120 w75"></td>
+        <td class="h120 w75"></td>
     </tr>
     <tr>
-        <td rowspan="2" height="120" class="black"></td>
-        <td height="60"></td>
-        <td colspan="2" height="50"></td>
+        <td rowspan="2" class="h120 black"></td>
+        <td class="h60"></td>
+        <td colspan="2" class="h50"></td>
     </tr>
     <tr>
         <td></td>
@@ -61,8 +76,8 @@
         <td rowspan="3" class="red"></td>
     </tr>
     <tr>
-        <td rowspan="2" class="yellow" height="90"></td>
-        <td rowspan="2" height="40"></td>
+        <td rowspan="2" class="yellow h90"></td>
+        <td rowspan="2" class="h40"></td>
         <td class="black"></td>
     </tr>
     <tr>
