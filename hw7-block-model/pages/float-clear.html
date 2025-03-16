@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float та clear</title>
+  <style>
+    .box {
+      width: 150px;
+      height: 150px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      margin: 10px;
+      padding: 10px;
+      float: left; /* Елемент буде ліворуч */
+    }
+
+    .clear {
+      clear: both; /* Забезпечує, що наступні елементи розташуються після попередніх плаваючих */
+    }
+  </style>
 </head>
 <body>
-    
+  <!-- Перший рядок -->
+  <div class="box">Елемент 1</div>
+  <div class="box">Елемент 2</div>
+  <div class="box">Елемент 3</div>
+  
+  <!-- Елемент з clear: both; очищає попереднє обтікання -->
+  <div class="clear"></div>
+  
+  <div class="box">Елемент 4 (починається з нового рядка)</div>
 </body>
 </html>

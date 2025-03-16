@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.page {
+    width: 80%;
+    margin: 30px auto;
+    border: 2px solid #333;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.content__block {
+    background-color: lightblue;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 90%;
+}
+.text__highlight {
+    color: red;
+    font-weight: bold;
+}
+.text__background {
+    background-color: yellow;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+.button-group {
+    margin-top: 20px;
+    padding: 10px;
+}
+.button-group__button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: lightcoral;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 120px;
+}
+.display__item {
+    margin: 10px;
+    text-align: center;
+}
+.display__item--block {
+    display: block;
+    width: 120px;
+    height: 80px;
+    background-color: lightblue;
+    line-height: 80px;
+}
+.display__item--inline {
+    display: inline;
+    background-color: lightgreen;
+    padding: 10px;
+}
+.display__container {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: lightcoral;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+.display__flex-item {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #333;
+}
+.box-sizing__item {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid #333;
+}
+.box-sizing__item--default {
+    background-color: lavender;
+    /* За замовчуванням box-sizing: content-box */
+}
+.box-sizing__item--border-box {
+    box-sizing: border-box;
+    background-color: lightyellow;
+}
+.shadow__item {
+    width: 150px;
+    height: 150px;
+    background-color: #ffddd2;
+    margin: 10px;
+    text-align: center;
+    line-height: 150px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.demo__header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ffcc00;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+.demo__container {
+    padding-top: 70px; /* Щоб вміст не перекривав фіксований заголовок */
+    background: #f4f4f4;
+    height: 2000px; /* Для демонстрації прокрутки */
+}
+.demo__relative {
+    position: relative;
+    background: #ccffcc;
+    padding: 15px;
+    margin: 20px;
+}
+  .demo__relative-absolute {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    background: #ff99cc;
+    padding: 10px;
+}
+.demo__static {
+    position: static;
+    background: #cccccc;
+    padding: 15px;
+    margin: 20px;
+}
+.demo__sticky {
+    position: sticky;
+    top: 80px; /* Елемент прилипає після досягнення 80px від верху вікна */
+    background: #66ccff;
+    padding: 15px;
+    margin: 20px;
+}    
+/* Базовий блок: overflow__container */
+.overflow__container {
+  width: 300px;
+  height: 150px;
+  border: 2px solid #333;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+/* Модифікатори для різних значень overflow */
+.overflow__container--visible {
+  overflow: visible;
+}
+.overflow__container--hidden {
+  overflow: hidden;
+}
+.overflow__container--scroll {
+  overflow: scroll;
+}
+.overflow__container--auto {
+  overflow: auto;
+}

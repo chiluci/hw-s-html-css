@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <title>Overflow</title>
 </head>
 <body>
-    
+  <h2>overflow: visible</h2>
+  <div class="overflow__container overflow__container--visible">
+    <p>
+      Цей контейнер використовує <strong>overflow: visible</strong>. Вміст, який перевищує встановлені розміри контейнера, відображається поза його межами. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti.
+    </p>
+  </div>
+
+  <h2>overflow: hidden</h2>
+  <div class="overflow__container overflow__container--hidden">
+    <p>
+      Цей контейнер використовує <strong>overflow: hidden</strong>. Вміст, що виходить за межі, обрізається та не відображається. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti.
+    </p>
+  </div>
+
+  <h2>overflow: scroll</h2>
+  <div class="overflow__container overflow__container--scroll">
+    <p>
+      Цей контейнер використовує <strong>overflow: scroll</strong>. Завжди відображаються смуги прокрутки незалежно від того, чи потрібні вони. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti.
+    </p>
+  </div>
+
+  <h2>overflow: auto</h2>
+  <div class="overflow__container overflow__container--auto">
+    <p>
+      Цей контейнер використовує <strong>overflow: auto</strong>. Якщо вміст перевищує розміри, з'являться смуги прокрутки. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti.
+    </p>
+  </div>
 </body>
 </html>

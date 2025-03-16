@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <title>Позиціонування</title>
 </head>
 <body>
+  <div class="demo__header">
+    Фіксований заголовок (fixed) - завжди на верху
+  </div>
+  
+  <div class="demo__container">
+    <div class="demo__relative">
+      Відносне позиціонування (relative)
+      <div class="demo__relative-absolute">
+        Абсолютне позиціонування (absolute)
+      </div>
+    </div>
     
+    <div class="demo__static">
+      Статичне позиціонування (static)
+    </div>
+    
+    <div class="demo__sticky">
+      Липкий блок (sticky) - прилипає при прокрутці
+    </div>
+    
+    <p>Прокрутіть сторінку, щоб побачити, як фіксований заголовок залишається на місці, а липкий блок прилипає після досягнення позиції 80px від верху вікна.</p>
+  </div>
 </body>
 </html>
